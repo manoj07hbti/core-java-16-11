@@ -16,10 +16,19 @@ public class Calculator {
         return result;
     }
 
+    public int addWithInput (int a, int b){
+
+
+        int result =a+b;
+        // System.out.println("Addition is "+result);
+
+        return result;
+    }
 
     public static void main(String[] args) {
         Calculator calculator= new Calculator();
-      int result=  calculator.add();
+
+      int result=  calculator.addWithInput(13,6);
 
       System.out.println("Addition is "+result);
 
