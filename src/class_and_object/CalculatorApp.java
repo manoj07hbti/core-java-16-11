@@ -28,7 +28,7 @@ public class CalculatorApp {
 
     public int divide (int a, int b){
 
-        int result=a*b;
+        int result=a/b;
 
         return result;
     }
